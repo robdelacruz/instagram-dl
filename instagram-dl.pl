@@ -15,7 +15,6 @@
 
 use strict;
 use warnings;
-use 5.012;
 
 use HTTP::Tiny;
 
@@ -26,7 +25,7 @@ if (
 	@ARGV == 0 ||
 	(@ARGV == 1 && ($ARGV[0] eq '-h' || $ARGV[0] eq '-help' || $ARGV[0] eq '-?'))
 ) {
-	say "\nUsage:\ninstagram-dl [-h] <url> [output filename]\n";
+	print "\nUsage:\ninstagram-dl [-h] <url> [output filename]\n\n";
 	exit 0;
 }
 
