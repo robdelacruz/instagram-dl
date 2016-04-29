@@ -15,6 +15,7 @@
 
 use strict;
 use warnings;
+use 5.008;
 
 use HTTP::Tiny;
 
