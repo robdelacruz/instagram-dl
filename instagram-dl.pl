@@ -15,8 +15,10 @@
 
 use strict;
 use warnings;
+use 5.010;
 
-use HTTP::Tiny;
+#use HTTP::Tiny;
+require "lib/HTTP/Tiny.pm";
 
 my $tiny = HTTP::Tiny->new();
 
