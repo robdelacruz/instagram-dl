@@ -17,8 +17,11 @@ use strict;
 use warnings;
 use 5.010;
 
+push @INC, "./";
+
 #use HTTP::Tiny;
-require "lib/HTTP/Tiny.pm";
+#require "lib/HTTP/Tiny.pm";
+require "Tiny.pm";
 
 my $tiny = HTTP::Tiny->new();
 
